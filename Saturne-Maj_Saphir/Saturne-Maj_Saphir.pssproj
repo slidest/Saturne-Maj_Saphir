@@ -32,7 +32,6 @@
     <Content Include="Executable\Satv40-MAJ-Saphir.exe.config" />
     <Content Include="icone_saturne.png" />
     <Content Include="logo-itron.png" />
-    <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="loadDialog.ps1" />
