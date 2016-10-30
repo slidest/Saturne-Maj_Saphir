@@ -26,9 +26,22 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <ItemGroup />
   <ItemGroup>
+    <Content Include="Application.ico" />
+    <Content Include="Executable\Satv40-MAJ-Saphir.exe" />
+    <Content Include="Executable\Satv40-MAJ-Saphir.exe.config" />
+    <Content Include="icone_saturne.png" />
+    <Content Include="logo-itron.png" />
+    <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="loadDialog.ps1" />
+    <Compile Include="Satv40-MAJ-Saphir-IHM.ps1" />
+    <Compile Include="Satv40-MAJ-Saphir.ps1" />
     <Compile Include="Script.ps1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Executable\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
